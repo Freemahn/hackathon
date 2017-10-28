@@ -2,3 +2,6 @@
 .gradle/*
 gradle/*
 out/*
+*.ipr
+*.iws
+*.iml
