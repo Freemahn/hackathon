@@ -1,4 +1,6 @@
-package hello;
+package com.freemahn.domain.entity;
+import com.freemahn.utils.LocalDateTimeConverter;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -19,7 +21,7 @@ public class Message {
     @Convert(converter = LocalDateTimeConverter.class)
     private LocalDateTime date;
 
-    protected Message() {}
+    public Message() {}
 
     @Override
     public String toString() {

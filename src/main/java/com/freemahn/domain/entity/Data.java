@@ -1,4 +1,4 @@
-package hello;
+package com.freemahn.domain.entity;
 
 public class Data {
 

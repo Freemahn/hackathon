@@ -1,4 +1,4 @@
-package hello;
+package com.freemahn.utils;
 
 import javax.persistence.AttributeConverter;
 import java.sql.Timestamp;

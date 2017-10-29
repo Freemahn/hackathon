@@ -1,8 +1,10 @@
-package hello;
+package com.freemahn.telegram;
 
+import com.freemahn.domain.entity.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import com.freemahn.domain.repository.MessageRepository;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

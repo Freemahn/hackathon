@@ -1,7 +1,8 @@
-package hello;
+package com.freemahn.web;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import com.freemahn.domain.entity.Data;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
