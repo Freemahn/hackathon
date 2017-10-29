@@ -1,6 +1,7 @@
 .idea
 .gradle
 out
+build
 *.ipr
 *.iws
 *.iml

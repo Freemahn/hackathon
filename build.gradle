@@ -15,7 +15,7 @@ apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'gs-spring-boot'
+    baseName = 'hackathon-test'
     version =  '0.1.0'
 }
 
@@ -54,6 +54,8 @@ dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-security")
 }
+
+
 
 //idea {
 ////    module {
