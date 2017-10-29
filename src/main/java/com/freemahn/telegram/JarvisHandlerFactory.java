@@ -1,4 +1,4 @@
-package com.freemahn.hello;
+package com.freemahn.telegram;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
